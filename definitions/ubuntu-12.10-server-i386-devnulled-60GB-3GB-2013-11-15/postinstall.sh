@@ -75,24 +75,7 @@ chown -R vagrant /home/vagrant/.ssh
 
 ##########  Added to default image by github.com/devnulled ##########
 # Install default packages that are useful on a server
-sudo apt-get install nmap vim traceroute iptraf iftop ipcalc aptitude rar zip unzip arj htop whois ssh tree smem nano -y
-
-# Install Python 2.7
-sudo apt-get install build-essential
-sudo apt-get install libreadline-gplv2-dev libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev
-
-wget http://python.org/ftp/python/2.7.5/Python-2.7.5.tgz
-
-tar -xvf Python-2.7.5.tgz
-cd Python-2.7.5
-
-./configure
-make
-sudo make install
-
-cd ..
-rm -rf Python-2.7.5
-rm Python-2.7.5.tgz
+sudo apt-get install nmap vim traceroute iptraf iftop ipcalc aptitude rar zip unzip arj htop whois ssh tree smem nano dnsutils -y
 ########## End additions ##########
 
 # Remove items used for building, since they aren't needed anymore

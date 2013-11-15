@@ -20,6 +20,16 @@ Basically this is a template based on Ubuntu 12.10 with the latest patches appli
 
 [https://dl.dropboxusercontent.com/u/124591/dist/vagrant-boxes/ubuntu-12.10-server-i386-devnulled-60GB-3GB-2013-11-15.box](https://dl.dropboxusercontent.com/u/124591/dist/vagrant-boxes/ubuntu-12.10-server-i386-devnulled-60GB-3GB-2013-11-15.box)
 
+## Simple Instructions
+
+To build one of these images yourself, run these commands from the root of the project:
+
+```
+$ veewee vbox build ubuntu-12.10-server-i386-devnulled-60GB-3GB-2013-11-15
+$ veewee vbox validate ubuntu-12.10-server-i386-devnulled-60GB-3GB-2013-11-15
+$ veewee vbox export ubuntu-12.10-server-i386-devnulled-60GB-3GB-2013-11-15
+```
+
 ## License
 
 Please see the LICENSE file for this project.
