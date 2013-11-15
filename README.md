@@ -19,3 +19,7 @@ Basically this is a template based on Ubuntu 12.10 with the latest patches appli
 #### Download URL
 
 [https://dl.dropboxusercontent.com/u/124591/dist/vagrant-boxes/ubuntu-12.10-server-i386-devnulled-60GB-3GB-2013-11-15.box](https://dl.dropboxusercontent.com/u/124591/dist/vagrant-boxes/ubuntu-12.10-server-i386-devnulled-60GB-3GB-2013-11-15.box)
+
+## License
+
+Please see the LICENSE file for this project.
